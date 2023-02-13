@@ -1,0 +1,9 @@
+<h1>Potin</h1>
+
+
+<% @gossip.each do |gossip| %>
+  <table class="table">
+    <td class="text-align">Titre : <%= gossip.title %></td>
+    <td class="text-right">Contenu : <%= gossip.content %></td>
+  </table>
+<% end %>
